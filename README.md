@@ -19,6 +19,15 @@ O projeto possui dois programas:
 - `server`: consulta a cotação do dólar na AwesomeAPI, salva o valor no SQLite e retorna a cotação em JSON.
 - `client`: consulta o servidor local e salva o valor recebido no arquivo `cotacao.txt`.
 
+Temos duas formas para testar.
+Primeira forma:
+- Acessando em terminais diferentes, em um terminal deverá acessar o diretório desafio/server e executar o comando go run .\server.go.
+- No outro terminal acessar diretório o desafio/client e executar o comando go run .\client.go.
+
+Segunda:
+- Acessando em terminais diferentes, em um terminal deverá acessar o diretório desafio/server e executar o comando go run .\server.go.
+- Pelo navegador digitar na URL http://localhost:8080/cotacao
+
 ## Estrutura
 
 desafio/
